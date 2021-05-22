@@ -24,7 +24,7 @@
     "nodejs"
   ],
   "dependencies": {
-    "dotenv": "^8.5.1"
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
     "@betahuhn/config": "^1.1.0",
