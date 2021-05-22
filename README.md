@@ -1,10 +1,10 @@
 <div align="center">
   
-# 💻 Node Starter
+# 💻 Node TypeScript Starter
 
 [![Node CI](https://github.com/BetaHuhn/node-typescript-starter/workflows/Node%20CI/badge.svg)](https://github.com/BetaHuhn/node-typescript-starter/actions?query=workflow%3A%22Node+CI%22) [![Release CI](https://github.com/BetaHuhn/node-typescript-starter/workflows/Release%20CI/badge.svg)](https://github.com/BetaHuhn/node-typescript-starter/actions?query=workflow%3A%22Release+CI%22) [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BetaHuhn/node-typescript-starter/blob/master/LICENSE) ![David](https://img.shields.io/david/betahuhn/node-typescript-starter)
 
-Starter repo for Node.js project
+Starter repo for Node.js Typescript project
 
 </div>
 
@@ -13,12 +13,13 @@ Starter repo for Node.js project
 - Semantic Release to GitHub and NPM (via GitHub Actions)
 - Linting with [Eslint](https://eslint.org/)
 - Automatic Dependabot PR merging (via GitHub Actions)
-- Compile program into a single file with [ncc](https://github.com/vercel/ncc)
+- TypeScript already setup
 
 ## 💻 Development
 
 - run `yarn lint` or `npm run lint` to run eslint.
-- run `yarn build` or `npm run build` to produce a compiled version in the `dist` folder.
+- run `yarn watch` or `npm run watch` to watch for changes.
+- run `yarn build` or `npm run build` to produce a compiled version in the `lib` folder.
 
 ## ❔ About
 
