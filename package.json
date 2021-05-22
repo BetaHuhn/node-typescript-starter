@@ -2,9 +2,9 @@
   "name": "node-typescript-starter",
   "version": "0.1.0",
   "description": "Starter repo for Node.js Typescript project",
-  "bin": "./dist/index.js",
+  "bin": "./lib/index.js",
   "files": [
-    "dist"
+    "lib"
   ],
   "scripts": {
     "lint": "eslint ./src/ --ext .ts",
