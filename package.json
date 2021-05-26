@@ -2,14 +2,15 @@
   "name": "node-typescript-starter",
   "version": "1.0.0",
   "description": "Starter repo for Node.js Typescript project",
-  "bin": "./lib/index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "files": [
     "lib"
   ],
   "scripts": {
     "lint": "eslint ./src/ --ext .ts",
     "watch": "tsc-watch --onSuccess \"node ./lib/index.js\"",
-    "build": "tsc",
+    "build": "tsc -p tsconfig.json",
     "start": "node lib/index.js"
   },
   "repository": {
